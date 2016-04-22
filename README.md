@@ -3,7 +3,9 @@
 This is a fork of the RFLink project, hosted earlier on Sourceforge. The original project has gone closed-source and the sourceforge page does not contain the code anymore.
 
 ### What is changed
-The original "README" file is renamed to "README_old".
+* Cleaned upp some files and put them in a directory called "Old".
+* Fixed the code so it will compile
+* The original "README" file is renamed to "README_old".
 
 ### Version
 At the time of download (2015-11-30) the sourceforge version was R34 but the readme-file showed R29. 
