@@ -3,6 +3,7 @@
 This is a fork of the RFLink project, hosted earlier on Sourceforge. The original project has gone closed-source and the sourceforge page does not contain the code anymore.
 
 ### What is changed
+* Changed "#include" for plugins so it works with relative paths.
 * Cleaned upp some files and put them in a directory called "Old".
 * Fixed the code so it will compile
 * The original "README" file is renamed to "README_old".
@@ -16,7 +17,7 @@ See, "README_old" for original readme file.
 * [RFLink homepage] - Homepage for RFLink
 
 ### Thanks to
-Stuntteam and all developers who made this fantastic project!!!   
+Stuntteam and all developers who made this fantastic project!!!
 If you likes this project, please say thanks to them!
 
 License
