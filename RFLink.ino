@@ -15,6 +15,8 @@
 #define INPUT_COMMAND_SIZE                60                                    // Maximum number of characters that a command via serial can be.
 #define PRINT_BUFFER_SIZE                 60                                    // Maximum number of characters that a command should print in one go via the print buffer.
 
+/* Config file, here you can specify which plugins to load */
+#include "Config_01.c"
 
 #define VALUE_PAIR                      44
 #define VALUE_ALLOFF                    55

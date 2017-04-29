@@ -1,511 +1,516 @@
 /**********************************************************************************************\
  * Load plugins
 \*********************************************************************************************/
-#define PLUGINFILE2(a, b) stringify(a/Plugins/b)
+
+/* Folder where the plugins are stored */
+#define PLUGIN_FOLDER Plugins
+
+#define stringify(x) #x
+#define PLUGINFILE2(a, b) stringify(a/b)
 #define PLUGINFILE(a, b) PLUGINFILE2(a, b)
 
 #ifdef PLUGIN_001
-#include PLUGINFILE(SKETCH_PATH,Plugin_001.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_001.c)
 #endif
 
 #ifdef PLUGIN_002
-#include PLUGINFILE(SKETCH_PATH,Plugin_002.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_002.c)
 #endif
 
 #ifdef PLUGIN_003
-#include PLUGINFILE(SKETCH_PATH,Plugin_003.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_003.c)
 #endif
 
 #ifdef PLUGIN_004
-#include PLUGINFILE(SKETCH_PATH,Plugin_004.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_004.c)
 #endif
 
 #ifdef PLUGIN_005
-#include PLUGINFILE(SKETCH_PATH,Plugin_005.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_005.c)
 #endif
 
 #ifdef PLUGIN_006
-#include PLUGINFILE(SKETCH_PATH,Plugin_006.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_006.c)
 #endif
 
 #ifdef PLUGIN_007
-#include PLUGINFILE(SKETCH_PATH,Plugin_007.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_007.c)
 #endif
 
 #ifdef PLUGIN_008
-#include PLUGINFILE(SKETCH_PATH,Plugin_008.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_008.c)
 #endif
 
 #ifdef PLUGIN_009
-#include PLUGINFILE(SKETCH_PATH,Plugin_009.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_009.c)
 #endif
 
 #ifdef PLUGIN_010
-#include PLUGINFILE(SKETCH_PATH,Plugin_010.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_010.c)
 #endif
 
 #ifdef PLUGIN_011
-#include PLUGINFILE(SKETCH_PATH,Plugin_011.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_011.c)
 #endif
 
 #ifdef PLUGIN_012
-#include PLUGINFILE(SKETCH_PATH,Plugin_012.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_012.c)
 #endif
 
 #ifdef PLUGIN_013
-#include PLUGINFILE(SKETCH_PATH,Plugin_013.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_013.c)
 #endif
 
 #ifdef PLUGIN_014
-#include PLUGINFILE(SKETCH_PATH,Plugin_014.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_014.c)
 #endif
 
 #ifdef PLUGIN_015
-#include PLUGINFILE(SKETCH_PATH,Plugin_015.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_015.c)
 #endif
 
 #ifdef PLUGIN_016
-#include PLUGINFILE(SKETCH_PATH,Plugin_016.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_016.c)
 #endif
 
 #ifdef PLUGIN_017
-#include PLUGINFILE(SKETCH_PATH,Plugin_017.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_017.c)
 #endif
 
 #ifdef PLUGIN_018
-#include PLUGINFILE(SKETCH_PATH,Plugin_018.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_018.c)
 #endif
 
 #ifdef PLUGIN_019
-#include PLUGINFILE(SKETCH_PATH,Plugin_019.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_019.c)
 #endif
 
 #ifdef PLUGIN_020
-#include PLUGINFILE(SKETCH_PATH,Plugin_020.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_020.c)
 #endif
 
 #ifdef PLUGIN_021
-#include PLUGINFILE(SKETCH_PATH,Plugin_021.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_021.c)
 #endif
 
 #ifdef PLUGIN_022
-#include PLUGINFILE(SKETCH_PATH,Plugin_022.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_022.c)
 #endif
 
 #ifdef PLUGIN_023
-#include PLUGINFILE(SKETCH_PATH,Plugin_023.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_023.c)
 #endif
 
 #ifdef PLUGIN_024
-#include PLUGINFILE(SKETCH_PATH,Plugin_024.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_024.c)
 #endif
 
 #ifdef PLUGIN_025
-#include PLUGINFILE(SKETCH_PATH,Plugin_025.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_025.c)
 #endif
 
 #ifdef PLUGIN_026
-#include PLUGINFILE(SKETCH_PATH,Plugin_026.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_026.c)
 #endif
 
 #ifdef PLUGIN_027
-#include PLUGINFILE(SKETCH_PATH,Plugin_027.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_027.c)
 #endif
 
 #ifdef PLUGIN_028
-#include PLUGINFILE(SKETCH_PATH,Plugin_028.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_028.c)
 #endif
 
 #ifdef PLUGIN_029
-#include PLUGINFILE(SKETCH_PATH,Plugin_029.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_029.c)
 #endif
 
 #ifdef PLUGIN_030
-#include PLUGINFILE(SKETCH_PATH,Plugin_030.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_030.c)
 #endif
 
 #ifdef PLUGIN_031
-#include PLUGINFILE(SKETCH_PATH,Plugin_031.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_031.c)
 #endif
 
 #ifdef PLUGIN_032
-#include PLUGINFILE(SKETCH_PATH,Plugin_032.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_032.c)
 #endif
 
 #ifdef PLUGIN_033
-#include PLUGINFILE(SKETCH_PATH,Plugin_033.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_033.c)
 #endif
 
 #ifdef PLUGIN_034
-#include PLUGINFILE(SKETCH_PATH,Plugin_034.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_034.c)
 #endif
 
 #ifdef PLUGIN_035
-#include PLUGINFILE(SKETCH_PATH,Plugin_035.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_035.c)
 #endif
 
 #ifdef PLUGIN_036
-#include PLUGINFILE(SKETCH_PATH,Plugin_036.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_036.c)
 #endif
 
 #ifdef PLUGIN_037
-#include PLUGINFILE(SKETCH_PATH,Plugin_037.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_037.c)
 #endif
 
 #ifdef PLUGIN_038
-#include PLUGINFILE(SKETCH_PATH,Plugin_038.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_038.c)
 #endif
 
 #ifdef PLUGIN_039
-#include PLUGINFILE(SKETCH_PATH,Plugin_039.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_039.c)
 #endif
 
 #ifdef PLUGIN_040
-#include PLUGINFILE(SKETCH_PATH,Plugin_040.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_040.c)
 #endif
 
 #ifdef PLUGIN_041
-#include PLUGINFILE(SKETCH_PATH,Plugin_041.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_041.c)
 #endif
 
 #ifdef PLUGIN_042
-#include PLUGINFILE(SKETCH_PATH,Plugin_042.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_042.c)
 #endif
 
 #ifdef PLUGIN_043
-#include PLUGINFILE(SKETCH_PATH,Plugin_043.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_043.c)
 #endif
 
 #ifdef PLUGIN_044
-#include PLUGINFILE(SKETCH_PATH,Plugin_044.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_044.c)
 #endif
 
 #ifdef PLUGIN_045
-#include PLUGINFILE(SKETCH_PATH,Plugin_045.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_045.c)
 #endif
 
 #ifdef PLUGIN_046
-#include PLUGINFILE(SKETCH_PATH,Plugin_046.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_046.c)
 #endif
 
 #ifdef PLUGIN_047
-#include PLUGINFILE(SKETCH_PATH,Plugin_047.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_047.c)
 #endif
 
 #ifdef PLUGIN_048
-#include PLUGINFILE(SKETCH_PATH,Plugin_048.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_048.c)
 #endif
 
 #ifdef PLUGIN_049
-#include PLUGINFILE(SKETCH_PATH,Plugin_049.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_049.c)
 #endif
 
 #ifdef PLUGIN_050
-#include PLUGINFILE(SKETCH_PATH,Plugin_050.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_050.c)
 #endif
 
 #ifdef PLUGIN_051
-#include PLUGINFILE(SKETCH_PATH,Plugin_051.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_051.c)
 #endif
 
 #ifdef PLUGIN_052
-#include PLUGINFILE(SKETCH_PATH,Plugin_052.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_052.c)
 #endif
 
 #ifdef PLUGIN_053
-#include PLUGINFILE(SKETCH_PATH,Plugin_053.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_053.c)
 #endif
 
 #ifdef PLUGIN_054
-#include PLUGINFILE(SKETCH_PATH,Plugin_054.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_054.c)
 #endif
 
 #ifdef PLUGIN_055
-#include PLUGINFILE(SKETCH_PATH,Plugin_055.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_055.c)
 #endif
 
 #ifdef PLUGIN_056
-#include PLUGINFILE(SKETCH_PATH,Plugin_056.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_056.c)
 #endif
 
 #ifdef PLUGIN_057
-#include PLUGINFILE(SKETCH_PATH,Plugin_057.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_057.c)
 #endif
 
 #ifdef PLUGIN_058
-#include PLUGINFILE(SKETCH_PATH,Plugin_058.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_058.c)
 #endif
 
 #ifdef PLUGIN_059
-#include PLUGINFILE(SKETCH_PATH,Plugin_059.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_059.c)
 #endif
 
 #ifdef PLUGIN_060
-#include PLUGINFILE(SKETCH_PATH,Plugin_060.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_060.c)
 #endif
 
 #ifdef PLUGIN_061
-#include PLUGINFILE(SKETCH_PATH,Plugin_061.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_061.c)
 #endif
 
 #ifdef PLUGIN_062
-#include PLUGINFILE(SKETCH_PATH,Plugin_062.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_062.c)
 #endif
 
 #ifdef PLUGIN_063
-#include PLUGINFILE(SKETCH_PATH,Plugin_063.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_063.c)
 #endif
 
 #ifdef PLUGIN_064
-#include PLUGINFILE(SKETCH_PATH,Plugin_064.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_064.c)
 #endif
 
 #ifdef PLUGIN_065
-#include PLUGINFILE(SKETCH_PATH,Plugin_065.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_065.c)
 #endif
 
 #ifdef PLUGIN_066
-#include PLUGINFILE(SKETCH_PATH,Plugin_066.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_066.c)
 #endif
 
 #ifdef PLUGIN_067
-#include PLUGINFILE(SKETCH_PATH,Plugin_067.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_067.c)
 #endif
 
 #ifdef PLUGIN_068
-#include PLUGINFILE(SKETCH_PATH,Plugin_068.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_068.c)
 #endif
 
 #ifdef PLUGIN_069
-#include PLUGINFILE(SKETCH_PATH,Plugin_069.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_069.c)
 #endif
 
 #ifdef PLUGIN_070
-#include PLUGINFILE(SKETCH_PATH,Plugin_070.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_070.c)
 #endif
 
 #ifdef PLUGIN_071
-#include PLUGINFILE(SKETCH_PATH,Plugin_071.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_071.c)
 #endif
 
 #ifdef PLUGIN_072
-#include PLUGINFILE(SKETCH_PATH,Plugin_072.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_072.c)
 #endif
 
 #ifdef PLUGIN_073
-#include PLUGINFILE(SKETCH_PATH,Plugin_073.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_073.c)
 #endif
 
 #ifdef PLUGIN_074
-#include PLUGINFILE(SKETCH_PATH,Plugin_074.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_074.c)
 #endif
 
 #ifdef PLUGIN_075
-#include PLUGINFILE(SKETCH_PATH,Plugin_075.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_075.c)
 #endif
 
 #ifdef PLUGIN_076
-#include PLUGINFILE(SKETCH_PATH,Plugin_076.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_076.c)
 #endif
 
 #ifdef PLUGIN_077
-#include PLUGINFILE(SKETCH_PATH,Plugin_077.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_077.c)
 #endif
 
 #ifdef PLUGIN_078
-#include PLUGINFILE(SKETCH_PATH,Plugin_078.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_078.c)
 #endif
 
 #ifdef PLUGIN_079
-#include PLUGINFILE(SKETCH_PATH,Plugin_079.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_079.c)
 #endif
 
 #ifdef PLUGIN_080
-#include PLUGINFILE(SKETCH_PATH,Plugin_080.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_080.c)
 #endif
 
 #ifdef PLUGIN_081
-#include PLUGINFILE(SKETCH_PATH,Plugin_081.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_081.c)
 #endif
 
 #ifdef PLUGIN_082
-#include PLUGINFILE(SKETCH_PATH,Plugin_082.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_082.c)
 #endif
 
 #ifdef PLUGIN_083
-#include PLUGINFILE(SKETCH_PATH,Plugin_083.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_083.c)
 #endif
 
 #ifdef PLUGIN_084
-#include PLUGINFILE(SKETCH_PATH,Plugin_084.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_084.c)
 #endif
 
 #ifdef PLUGIN_085
-#include PLUGINFILE(SKETCH_PATH,Plugin_085.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_085.c)
 #endif
 
 #ifdef PLUGIN_086
-#include PLUGINFILE(SKETCH_PATH,Plugin_086.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_086.c)
 #endif
 
 #ifdef PLUGIN_087
-#include PLUGINFILE(SKETCH_PATH,Plugin_087.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_087.c)
 #endif
 
 #ifdef PLUGIN_088
-#include PLUGINFILE(SKETCH_PATH,Plugin_088.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_088.c)
 #endif
 
 #ifdef PLUGIN_089
-#include PLUGINFILE(SKETCH_PATH,Plugin_089.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_089.c)
 #endif
 
 #ifdef PLUGIN_090
-#include PLUGINFILE(SKETCH_PATH,Plugin_090.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_090.c)
 #endif
 
 #ifdef PLUGIN_091
-#include PLUGINFILE(SKETCH_PATH,Plugin_091.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_091.c)
 #endif
 
 #ifdef PLUGIN_092
-#include PLUGINFILE(SKETCH_PATH,Plugin_092.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_092.c)
 #endif
 
 #ifdef PLUGIN_093
-#include PLUGINFILE(SKETCH_PATH,Plugin_093.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_093.c)
 #endif
 
 #ifdef PLUGIN_094
-#include PLUGINFILE(SKETCH_PATH,Plugin_094.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_094.c)
 #endif
 
 #ifdef PLUGIN_095
-#include PLUGINFILE(SKETCH_PATH,Plugin_095.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_095.c)
 #endif
 
 #ifdef PLUGIN_096
-#include PLUGINFILE(SKETCH_PATH,Plugin_096.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_096.c)
 #endif
 
 #ifdef PLUGIN_097
-#include PLUGINFILE(SKETCH_PATH,Plugin_097.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_097.c)
 #endif
 
 #ifdef PLUGIN_098
-#include PLUGINFILE(SKETCH_PATH,Plugin_098.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_098.c)
 #endif
 
 #ifdef PLUGIN_099
-#include PLUGINFILE(SKETCH_PATH,Plugin_099.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_099.c)
 #endif
 
 #ifdef PLUGIN_100
-#include PLUGINFILE(SKETCH_PATH,Plugin_100.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_100.c)
 #endif
 
 #ifdef PLUGIN_101
-#include PLUGINFILE(SKETCH_PATH,Plugin_101.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_101.c)
 #endif
 
 #ifdef PLUGIN_102
-#include PLUGINFILE(SKETCH_PATH,Plugin_102.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_102.c)
 #endif
 
 #ifdef PLUGIN_103
-#include PLUGINFILE(SKETCH_PATH,Plugin_103.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_103.c)
 #endif
 
 #ifdef PLUGIN_104
-#include PLUGINFILE(SKETCH_PATH,Plugin_104.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_104.c)
 #endif
 
 #ifdef PLUGIN_105
-#include PLUGINFILE(SKETCH_PATH,Plugin_105.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_105.c)
 #endif
 
 #ifdef PLUGIN_106
-#include PLUGINFILE(SKETCH_PATH,Plugin_106.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_106.c)
 #endif
 
 #ifdef PLUGIN_107
-#include PLUGINFILE(SKETCH_PATH,Plugin_107.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_107.c)
 #endif
 
 #ifdef PLUGIN_108
-#include PLUGINFILE(SKETCH_PATH,Plugin_108.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_108.c)
 #endif
 
 #ifdef PLUGIN_109
-#include PLUGINFILE(SKETCH_PATH,Plugin_109.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_109.c)
 #endif
 
 #ifdef PLUGIN_110
-#include PLUGINFILE(SKETCH_PATH,Plugin_110.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_110.c)
 #endif
 
 #ifdef PLUGIN_111
-#include PLUGINFILE(SKETCH_PATH,Plugin_111.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_111.c)
 #endif
 
 #ifdef PLUGIN_112
-#include PLUGINFILE(SKETCH_PATH,Plugin_112.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_112.c)
 #endif
 
 #ifdef PLUGIN_113
-#include PLUGINFILE(SKETCH_PATH,Plugin_113.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_113.c)
 #endif
 
 #ifdef PLUGIN_114
-#include PLUGINFILE(SKETCH_PATH,Plugin_114.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_114.c)
 #endif
 
 #ifdef PLUGIN_115
-#include PLUGINFILE(SKETCH_PATH,Plugin_115.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_115.c)
 #endif
 
 #ifdef PLUGIN_116
-#include PLUGINFILE(SKETCH_PATH,Plugin_116.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_116.c)
 #endif
 
 #ifdef PLUGIN_117
-#include PLUGINFILE(SKETCH_PATH,Plugin_117.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_117.c)
 #endif
 
 #ifdef PLUGIN_118
-#include PLUGINFILE(SKETCH_PATH,Plugin_118.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_118.c)
 #endif
 
 #ifdef PLUGIN_119
-#include PLUGINFILE(SKETCH_PATH,Plugin_119.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_119.c)
 #endif
 
 #ifdef PLUGIN_120
-#include PLUGINFILE(SKETCH_PATH,Plugin_120.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_120.c)
 #endif
 
 #ifdef PLUGIN_250
-#include PLUGINFILE(SKETCH_PATH,Plugin_250.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_250.c)
 #endif
 
 #ifdef PLUGIN_251
-#include PLUGINFILE(SKETCH_PATH,Plugin_251.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_251.c)
 #endif
 
 #ifdef PLUGIN_252
-#include PLUGINFILE(SKETCH_PATH,Plugin_252.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_252.c)
 #endif
 
 #ifdef PLUGIN_253
-#include PLUGINFILE(SKETCH_PATH,Plugin_253.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_253.c)
 #endif
 
 #ifdef PLUGIN_254
-#include PLUGINFILE(SKETCH_PATH,Plugin_254.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_254.c)
 #endif
 
 #ifdef PLUGIN_255
-#include PLUGINFILE(SKETCH_PATH,Plugin_255.c)
+#include PLUGINFILE(PLUGIN_FOLDER,Plugin_255.c)
 #endif
 /*********************************************************************************************/
 void PluginInit(void)
