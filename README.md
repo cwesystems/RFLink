@@ -2,6 +2,10 @@
 
 This is a fork of the RFLink project, hosted earlier on Sourceforge. The original project has gone closed-source and the sourceforge page does not contain the code anymore.
 
+### Hardware
+Here is a hardware example for a simple and cheap RFLink:
+http://cwesystems.com/?p=101 
+
 ### What is changed
 * Changed "#include" for plugins so it works with relative paths.
 * Cleaned upp some files and put them in a directory called "Old".
