@@ -7,7 +7,8 @@ Here is a hardware example for a simple and cheap RFLink:
 http://cwesystems.com/?p=101 
 
 Here is a custom build:
-http://http://cwesystems.com/?p=157
+
+http://cwesystems.com/?p=157
 
 https://github.com/cwesystems/CWs-RFLink/
 
