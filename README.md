@@ -5,6 +5,9 @@ This is a fork of the RFLink project, hosted earlier on Sourceforge. The origina
 ### Hardware
 Here is a hardware example for a simple and cheap RFLink:
 http://cwesystems.com/?p=101 
+Here is a custom build:
+http://http://cwesystems.com/?p=157
+https://github.com/cwesystems/CWs-RFLink/
 
 ### What is changed
 * Changed "#include" for plugins so it works with relative paths.
